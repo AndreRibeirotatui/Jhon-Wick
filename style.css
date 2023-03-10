@@ -1,0 +1,74 @@
+@keyframes some {
+    from { opacity: 0.1; }
+    to { opacity: 1; }
+    
+    }
+    
+   
+
+body{
+    margin: 8;
+    height: 100vh;
+    width: 100vw;
+  background-image: url(./img/principal.jpg);
+  
+  
+}
+      
+     .container{
+        margin-top: -10%;
+        height: 300px;
+        width: 400px;
+        margin-left: 25%; 
+        animation-name: some;
+  
+  animation-duration: 11s;
+  opacity: 0;
+        
+          
+     }
+        .jhon1{
+            margin-top: -70%;
+            height: 200px;
+            width: 150px;
+            margin-left: 70%;
+            animation-name: some;
+            animation-duration: 6s;
+            opacity: 0;
+
+            
+        }
+        .jhon2{
+            height: 200px;
+            width: 150px;
+            margin-top: -10px;
+            margin-left: 40px;
+            animation-name: some;
+            animation-duration: 7s;
+            opacity: 0;
+        }
+        .jhon3{
+            height: 200px;
+            width: 150px;
+            margin-top: 10%;
+            margin-left: 40px;
+            animation-name: some;
+            animation-duration: 10s;
+            opacity: 0;
+        }
+     .botao{
+        position: absolute;
+        margin-left: 35%;
+        margin-top: 5%;
+        font-weight: bold;
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+    background-color: rgb(163, 10, 18);
+     }
+     .botao:hover{
+        background-color: rgb(70, 5, 95);
+     }
+     
